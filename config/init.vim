@@ -23,9 +23,14 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'rust-lang/rust.vim'
 Plugin 'dag/vim-fish'
 Plugin 'fatih/vim-go'
+Plugin 'Shougo/deoplete.nvim'
+Plugin 'sebastianmarkow/deoplete-rust'
+
 call vundle#end()
 filetype plugin on
 
+let g:deoplete#enable_at_startup = 1
+let g:deoplete#sources#rust#rust_source_path='/usr/local/bin/racer'
 
 " Go
 let g:go_version_warning = 0

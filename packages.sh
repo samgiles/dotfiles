@@ -13,9 +13,13 @@ brew $1 jwt-cli
 brew $1 kubernetes-cli
 brew $1 neovim
 brew $1 readline
-brew $1 rust
 brew $1 telnet
 brew $1 terraform
 brew $1 the_silver_searcher
 brew $1 tmux
 brew $1 wget
+
+curl https://sh.rustup.rs -sSf | sh
+
+pip3 install neovim
+cargo +nightly install racer
