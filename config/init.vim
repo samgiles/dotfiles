@@ -69,9 +69,9 @@ au BufNewFile,BufRead *.fsti set filetype=ocaml
 "Formatting
 set smarttab
 set autoindent
-set noexpandtab
-set tabstop=4
-set shiftwidth=4
+set expandtab
+set tabstop=2
+set shiftwidth=2
 set wrap
 set ffs=unix,dos,mac
 set encoding=utf8
