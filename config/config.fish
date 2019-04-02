@@ -8,6 +8,9 @@ set -x fish_greeting "🐟"
 alias vim "nvim"
 alias vi "nvim"
 
+set -g theme_nerd_fonts yes
+set theme_color_scheme solarized-dark -U
+
 set -g fish_user_paths "/usr/local/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/go/bin" $fish_user_paths
 set -gx GOPATH "/Users/samgiles/go"
