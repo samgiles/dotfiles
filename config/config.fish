@@ -12,6 +12,7 @@ set -g theme_nerd_fonts yes
 set -g theme_color_scheme solarized-dark 
 set -g theme_show_exit_status yes
 set -g theme_powerline_fonts yes
+set -g theme_display_k8s_context yes
 
 set -g fish_user_paths "/usr/local/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/go/bin" $fish_user_paths
